@@ -1,0 +1,2 @@
+Set-ExecutionPolicy -ExecutionPolicy bypass
+powershell -NoProfile -Command "Start-Process -Verb RunAs powershell -ArgumentList '-NoProfile -ExecutionPolicy Bypass -noexit -File .\Device_Cleanup_Expandedv3.ps1 -_vLUF %_vLUF%'"
